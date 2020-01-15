@@ -30,7 +30,7 @@ $(document).ready(function(){
         var a_width = $(this).width();
         var a_hegiht = $(this).height() + 3 + 4;
 
-        //if the tooltip width is smaller than the a/link/parent width
+ 
         if(tipwidth < a_width){
             tipwidth = a_width;
             $('.tooltip').outerWidth(tipwidth);
